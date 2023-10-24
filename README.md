@@ -2,11 +2,11 @@
 
 Welcome to the iBrain Code Next project repository! This project aims to revolutionize the way developers interact with their codebase using AI-driven tools, offering a multi-dimensional, scale-based approach to code analysis, refactoring, and optimization.
 
-## Project Overview
+## Project
 
 iBrain Code Next introduces a suite of innovative tools and methodologies that leverage advanced AI techniques to facilitate more intuitive and efficient codebase interactions. Through a combination of virtual repo representations, scale-based algorithms, and user-friendly interfaces, we aim to enhance the developer experience, streamline workflows, and elevate the quality of codebases everywhere.
 
-## Repository Contents
+## Overvew
 
 1. **[Solution](SOLUTION.md)**
     - Explore the intricacies of the proposed solutions. This file delves deep into the technical and functional aspects of the project, discussing the challenges addressed, the innovative solutions proposed, and the expected impact of these solutions.

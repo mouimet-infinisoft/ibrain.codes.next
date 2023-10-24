@@ -1,6 +1,6 @@
 # The Problem
 
-AI Integration at complex development task is peforming pooerly. Navigating modern codebases with traditional version control systems poses challenges for AI integration due to their human-centric structures, making it difficult for AI models to efficiently parse, understand, and manipulate the intricate web of code interdependencies.
+AI Integration at complex development task is peforming poorly. Navigating modern codebases with traditional version control systems poses challenges for AI integration due to their human-centric structures, making it difficult for AI models to efficiently parse, understand, and manipulate the intricate web of code interdependencies.
 
 **The Challenge of Modern Codebase Management in the Age of AI**:
 
