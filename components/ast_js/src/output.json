@@ -1,0 +1,1567 @@
+{
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/index.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/reportWebVitals.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/App.js"
+    ],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "root"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/reportWebVitals.js": {
+    "imports": [],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "reportWebVitals"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/App.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Main.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/NotFound.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/routes/PublicRoutes.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/routes/ProtectedRoutes.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/AppCalendar/datamock.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Demandes/assets/datamock.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/UsersManagement/datamock.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Notes/datamock.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Contacts/contactList.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/EventManagement.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Dossiers/assets/datamock.js"
+    ],
+    "functions": [
+      "App"
+    ],
+    "classes": [],
+    "variables": [
+      "options",
+      "skinMode",
+      "HTMLTag",
+      "devTools"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Main.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Sidebar.js"
+    ],
+    "functions": [
+      "Main"
+    ],
+    "classes": [],
+    "variables": [
+      "offsets",
+      "bc"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Sidebar.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/data/Menu.js"
+    ],
+    "functions": [],
+    "classes": [
+      "Sidebar",
+      "SidebarMenu"
+    ],
+    "variables": [
+      "parent",
+      "menu",
+      "sm",
+      "parent",
+      "parent",
+      "node",
+      "tar",
+      "sidebar",
+      "skinMode",
+      "HTMLTag"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/data/Menu.js": {
+    "imports": [],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "dashboardMenu",
+      "applicationsMenu",
+      "pagesMenu",
+      "uiElementsMenu"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/NotFound.js": {
+    "imports": [],
+    "functions": [
+      "NotFound"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/routes/PublicRoutes.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Forbidden.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/ForgotPassword.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/InternalServerError.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/LockScreen.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/NotFound.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/ServiceUnavailable.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Signin.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Signin2.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Signup.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Signup2.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/VerifyAccount.js"
+    ],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "publicRoutes"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Forbidden.js": {
+    "imports": [],
+    "functions": [
+      "Forbidden"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/ForgotPassword.js": {
+    "imports": [],
+    "functions": [
+      "ForgotPassword"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/InternalServerError.js": {
+    "imports": [],
+    "functions": [
+      "InternalServerError"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/LockScreen.js": {
+    "imports": [],
+    "functions": [
+      "LockScreen"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/ServiceUnavailable.js": {
+    "imports": [],
+    "functions": [
+      "ServiceUnavailable"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Signin.js": {
+    "imports": [],
+    "functions": [
+      "Signin"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Signin2.js": {
+    "imports": [],
+    "functions": [
+      "Signin2"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Signup.js": {
+    "imports": [],
+    "functions": [
+      "Signup"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Signup2.js": {
+    "imports": [],
+    "functions": [
+      "Signup2"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/VerifyAccount.js": {
+    "imports": [],
+    "functions": [
+      "VerifyAccount"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/routes/ProtectedRoutes.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/EventManagement.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/SalesMonitoring.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/WebsiteAnalytics.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/FinanceMonitoring.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/Cryptocurrency.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/HelpdeskService.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/StorageManagement.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/ProductManagement.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/GalleryMusic.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/GalleryVideo.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Tasks.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Contacts/Contacts.jsx",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Chat.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/AppCalendar/AppCalendar.jsx",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Email.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/FileManager.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Pricing.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Faq.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Profile.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/People.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Activity.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Events.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Settings.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/LayoutColumns.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/LayoutGrid.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/LayoutGutters.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Accordions.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Alerts.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Avatars.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Badges.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Breadcrumbs.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Buttons.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Cards.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Carousels.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Dropdowns.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Images.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Listgroup.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Markers.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Modals.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/NavTabs.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/OffCanvas.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Paginations.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Placeholders.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Popovers.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Progress.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Spinners.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Toasts.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Tooltips.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Tables.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/FormElements.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/FormSelects.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/FormChecksRadios.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/FormRange.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/FormPickers.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/FormLayouts.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilBackground.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilBorder.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilColors.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilDivider.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilFlex.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilSizing.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilSpacing.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilOpacity.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilPosition.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilTypography.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilShadows.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilExtras.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/ApexCharts.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/ChartJs.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/MapLeaflet.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/MapVector.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/IconRemix.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/IconFeather.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/UsersManagement/List.js"
+    ],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "protectedRoutes"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/EventManagement.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Demandes/components/DemandesStats.jsx"
+    ],
+    "functions": [
+      "EventManagement"
+    ],
+    "classes": [],
+    "variables": [
+      "d1",
+      "d2",
+      "seriesOne",
+      "optionOne",
+      "seriesTwo",
+      "optionTwo",
+      "seriesThree",
+      "optionThree",
+      "optionFour",
+      "seriesFive",
+      "optionFive",
+      "dataBar",
+      "optionBar",
+      "dataPie",
+      "optionPie",
+      "currentSkin",
+      "switchSkin",
+      "textPrimary",
+      "btnWhite",
+      "btn",
+      "txt",
+      "btnOutlinePrimary",
+      "btn",
+      "txt"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/data/Notification.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/App.js"
+    ],
+    "functions": [
+      "Header",
+      "NotificationList"
+    ],
+    "classes": [],
+    "variables": [
+      "CustomToggle",
+      "toggleSidebar",
+      "isOffset",
+      "notiList",
+      "skinMode",
+      "node",
+      "skin",
+      "HTMLTag",
+      "sidebarSkin",
+      "node",
+      "skin",
+      "HTMLTag"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/data/Notification.js": {
+    "imports": [],
+    "functions": [],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js": {
+    "imports": [],
+    "functions": [
+      "Footer"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Demandes/components/DemandesStats.jsx": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/components/atoms/Stats.js"
+    ],
+    "functions": [
+      "countStatus"
+    ],
+    "classes": [],
+    "variables": [
+      "header",
+      "DemandesStats",
+      "statusCount",
+      "cards"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/components/atoms/Stats.js": {
+    "imports": [],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "Stats",
+      "classDown",
+      "arrow"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/SalesMonitoring.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/data/DashboardData.js"
+    ],
+    "functions": [
+      "SalesMonitoring"
+    ],
+    "classes": [],
+    "variables": [
+      "seriesOne",
+      "optionOne",
+      "seriesTwo",
+      "optionTwo",
+      "chartData",
+      "chartOption",
+      "regStyle",
+      "currentSkin"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/data/DashboardData.js": {
+    "imports": [],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "dp1",
+      "dp2",
+      "dp3",
+      "dp4",
+      "dp5"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/WebsiteAnalytics.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/data/DashboardData.js"
+    ],
+    "functions": [
+      "WebsiteAnalytics"
+    ],
+    "classes": [],
+    "variables": [
+      "data",
+      "chart",
+      "states",
+      "plotOptions",
+      "stroke",
+      "seriesOne",
+      "optionOne",
+      "seriesTwo",
+      "optionTwo",
+      "seriesThree",
+      "optionThree",
+      "seriesFour",
+      "optionFour",
+      "seriesFive",
+      "optionFive",
+      "regStyle",
+      "currentSkin",
+      "switchSkin",
+      "btnWhite",
+      "btn",
+      "btnOutlinePrimary",
+      "btn"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/FinanceMonitoring.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/data/DashboardData.js"
+    ],
+    "functions": [
+      "FinanceMonitoring"
+    ],
+    "classes": [],
+    "variables": [
+      "seriesOne",
+      "optionOne",
+      "seriesTwo",
+      "optionTwo",
+      "seriesThree",
+      "optionThree",
+      "seriesFour",
+      "optionFour",
+      "seriesFive",
+      "optionFive",
+      "seriesSix",
+      "optionSix",
+      "seriesSeven",
+      "optionSeven",
+      "seriesEight",
+      "optionEight",
+      "optionDonut",
+      "currentSkin",
+      "switchSkin",
+      "btnWhite",
+      "btn",
+      "btnOutlinePrimary",
+      "btn"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/Cryptocurrency.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/data/DashboardData.js"
+    ],
+    "functions": [
+      "Cryptocurrency",
+      "setOption"
+    ],
+    "classes": [],
+    "variables": [
+      "chart",
+      "grid",
+      "stroke",
+      "fill",
+      "yaxis",
+      "seriesOne",
+      "optionOne",
+      "dataPie",
+      "optionPie",
+      "seriesTwo",
+      "optionTwo",
+      "currentSkin",
+      "switchSkin",
+      "btnWhite",
+      "btn",
+      "btnOutlinePrimary",
+      "btn"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/HelpdeskService.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/data/DashboardData.js"
+    ],
+    "functions": [
+      "HelpdeskService"
+    ],
+    "classes": [],
+    "variables": [
+      "dataBar1",
+      "optionBar1",
+      "dataBar2",
+      "optionBar2",
+      "seriesOne",
+      "optionOne",
+      "optionDonut1",
+      "optionDonut2",
+      "optionTwo",
+      "currentSkin",
+      "switchSkin",
+      "btnWhite",
+      "btn",
+      "btnOutlinePrimary",
+      "btn"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/StorageManagement.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js"
+    ],
+    "functions": [
+      "StorageManagement"
+    ],
+    "classes": [],
+    "variables": [
+      "states",
+      "seriesOne",
+      "optionOne",
+      "seriesTwo",
+      "optionTwo",
+      "dataDonut",
+      "optionDonut",
+      "dataPolar",
+      "optionPolar",
+      "dataRadar",
+      "optionRadar",
+      "dataLine",
+      "optionLine",
+      "seriesThree",
+      "optionThree",
+      "currentSkin",
+      "switchSkin",
+      "btnWhite",
+      "btn",
+      "btnOutlinePrimary",
+      "btn"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/dashboard/ProductManagement.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js"
+    ],
+    "functions": [
+      "ProductManagement"
+    ],
+    "classes": [],
+    "variables": [
+      "states",
+      "seriesOne",
+      "optionOne",
+      "seriesTwo",
+      "optionTwo",
+      "seriesThree",
+      "optionThree",
+      "seriesFour",
+      "optionFour",
+      "seriesFive",
+      "optionFive",
+      "currentSkin",
+      "switchSkin",
+      "btnWhite",
+      "btn",
+      "btnOutlinePrimary",
+      "btn"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/GalleryMusic.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js"
+    ],
+    "functions": [
+      "GalleryMusic"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/GalleryVideo.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js"
+    ],
+    "functions": [
+      "GalleryVideo"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Tasks.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js"
+    ],
+    "functions": [
+      "Tasks"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Contacts/Contacts.jsx": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/App.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/components/atoms/ConfirmModal.jsx",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/components/atoms/ListComponent.jsx",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Contacts/ContactForm.jsx"
+    ],
+    "functions": [
+      "toggleSidebarShow",
+      "handleUpdate",
+      "handleHideDeleteContact",
+      "handleDeleteContact",
+      "handleShowDeleteContact"
+    ],
+    "classes": [],
+    "variables": [
+      "defaultModelContact",
+      "Contacts",
+      "bstack",
+      "_contact"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/components/atoms/ConfirmModal.jsx": {
+    "imports": [],
+    "functions": [
+      "ConfirmModal"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/components/atoms/ListComponent.jsx": {
+    "imports": [],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "ListSideBar"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Contacts/ContactForm.jsx": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/components/atoms/ChipArray.jsx",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/App.js"
+    ],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "ContactForm",
+      "Coordinates",
+      "Relations",
+      "email"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/components/atoms/ChipArray.jsx": {
+    "imports": [],
+    "functions": [
+      "ChipArray"
+    ],
+    "classes": [],
+    "variables": [
+      "handleInputChange",
+      "handleKeyDown",
+      "newItems",
+      "handleRemoveChip",
+      "newItems"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Chat.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js"
+    ],
+    "functions": [
+      "Chat"
+    ],
+    "classes": [],
+    "variables": [
+      "CustomToggle",
+      "chatGroup",
+      "messageGroup",
+      "navToggle"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/AppCalendar/AppCalendar.jsx": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/App.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/AppCalendar/EventModal.jsx"
+    ],
+    "functions": [
+      "CalendarComponent",
+      "AppCalendar"
+    ],
+    "classes": [],
+    "variables": [
+      "bstack",
+      "calendarRef",
+      "calendarApi",
+      "handleEventClick",
+      "handleCreateEventClick",
+      "e",
+      "handleModalClose"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/AppCalendar/EventModal.jsx": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/App.js"
+    ],
+    "functions": [
+      "EventModal"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Email.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js"
+    ],
+    "functions": [
+      "Email"
+    ],
+    "classes": [],
+    "variables": [
+      "CustomToggle"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/FileManager.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js"
+    ],
+    "functions": [
+      "FileManager"
+    ],
+    "classes": [],
+    "variables": [
+      "CustomToggle"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Pricing.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Pricing"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js": {
+    "imports": [],
+    "functions": [
+      "HeaderMobile"
+    ],
+    "classes": [],
+    "variables": [
+      "sidebarShow"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Faq.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Faq"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Profile.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/App.js"
+    ],
+    "functions": [
+      "Profile"
+    ],
+    "classes": [],
+    "variables": [
+      "bstack"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/People.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "People"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Activity.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/ActivityList.js"
+    ],
+    "functions": [
+      "Activity"
+    ],
+    "classes": [],
+    "variables": [
+      "activities"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/ActivityList.js": {
+    "imports": [],
+    "functions": [
+      "ActivityList"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Events.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Events"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/pages/Settings.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Settings"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/LayoutColumns.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js"
+    ],
+    "functions": [
+      "LayoutColumns"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/LayoutGrid.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js"
+    ],
+    "functions": [
+      "LayoutGrid"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/LayoutGutters.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js"
+    ],
+    "functions": [
+      "LayoutGutters"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Accordions.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Accordions"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Alerts.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Alerts"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Avatars.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Avatars"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Badges.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Badges"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Breadcrumbs.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Breadcrumbs"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Buttons.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Buttons"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Cards.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Cards"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Carousels.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Carousels"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Dropdowns.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Dropdowns"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Images.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Images"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Listgroup.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Listgroup"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Markers.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Markers"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Modals.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Modals"
+    ],
+    "classes": [],
+    "variables": [
+      "handleClose",
+      "handleShow",
+      "handleClose2",
+      "handleShow2",
+      "handleClose3",
+      "handleShow3",
+      "handleClose4",
+      "handleShow4",
+      "handleClose5",
+      "smHandleClose",
+      "lgHandleClose",
+      "xlHandleClose"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/NavTabs.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "NavTabs"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/OffCanvas.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "OffCanvas"
+    ],
+    "classes": [],
+    "variables": [
+      "handleClose",
+      "handleShow",
+      "handleClose2",
+      "handleShow2",
+      "handleCloseTop",
+      "handleShowTop",
+      "handleCloseBottom",
+      "handleShowBottom",
+      "handleCloseRight",
+      "handleShowRight"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Paginations.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Paginations"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Placeholders.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Placeholders"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Popovers.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Popovers"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Progress.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Progresss"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Spinners.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Spinners"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Toasts.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Toasts"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Tooltips.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Tooltips"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/Tables.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "Tables"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/FormElements.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "FormElements"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/FormSelects.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "FormSelects"
+    ],
+    "classes": [],
+    "variables": [
+      "selectOptions"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/FormChecksRadios.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "FormChecksRadios"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/FormRange.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "FormRange"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/FormPickers.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "FormPickers"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/FormLayouts.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "FormLayouts"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilBackground.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "UtilBackground"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilBorder.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "UtilBorder"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilColors.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "UtilColors"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilDivider.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "UtilDivider"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilFlex.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "UtilFlex"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilSizing.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "UtilSizing"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilSpacing.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "UtilSpacing"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilOpacity.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "UtilOpacity"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilPosition.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "UtilPosition"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilTypography.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "UtilTypography"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilShadows.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "UtilShadows"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/UtilExtras.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "UtilExtras"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/ApexCharts.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "ApexCharts"
+    ],
+    "classes": [],
+    "variables": [
+      "seriesBar",
+      "optionBar",
+      "seriesColumn",
+      "optionColumn",
+      "seriesStacked",
+      "optionStacked",
+      "seriesLine",
+      "optionLine",
+      "seriesArea",
+      "optionArea",
+      "seriesRadius",
+      "optionRadius",
+      "seriesGradient",
+      "optionGradient",
+      "seriesPie",
+      "optionPie",
+      "seriesDonut",
+      "optionDonut"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/ChartJs.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "ChartJs"
+    ],
+    "classes": [],
+    "variables": [
+      "ctxLabel",
+      "ctxData1",
+      "ctxData2",
+      "ctxColor1",
+      "ctxColor2",
+      "dataBar",
+      "optionBar",
+      "dataBar2",
+      "optionBar2",
+      "dataBar3",
+      "optionBar3",
+      "dataBar4",
+      "optionBar4",
+      "dataLine",
+      "optionLine",
+      "dataLine2",
+      "optionLine2",
+      "dataPie",
+      "optionPie"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/MapLeaflet.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "MapLeaflet"
+    ],
+    "classes": [],
+    "variables": [
+      "icon"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/MapVector.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "MapVector"
+    ],
+    "classes": [],
+    "variables": [
+      "regStyle"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/IconRemix.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "IconRemix"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/docs/IconFeather.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Footer.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/HeaderMobile.js"
+    ],
+    "functions": [
+      "IconFeather"
+    ],
+    "classes": [],
+    "variables": []
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/UsersManagement/List.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/layouts/Header.js",
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/App.js"
+    ],
+    "functions": [
+      "UsersList"
+    ],
+    "classes": [],
+    "variables": [
+      "bstack"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/AppCalendar/datamock.js": {
+    "imports": [],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "events"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Demandes/assets/datamock.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/App.js"
+    ],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "demandesList",
+      "defaultModel"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/UsersManagement/datamock.js": {
+    "imports": [],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "usersList"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Notes/datamock.js": {
+    "imports": [],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "d",
+      "notesList"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Contacts/contactList.js": {
+    "imports": [],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "contactList"
+    ]
+  },
+  "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/apps/Dossiers/assets/datamock.js": {
+    "imports": [
+      "/home/nitr0gen/ibrain.codes.next/components/ast_js/src/test/App.js"
+    ],
+    "functions": [],
+    "classes": [],
+    "variables": [
+      "dossiersList",
+      "defaultModel"
+    ]
+  }
+}
